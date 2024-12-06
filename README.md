@@ -13,9 +13,6 @@ A simple web application to shorten long URLs. This project demonstrates the bas
 - **CSS**: For styling the UI with a responsive design.
 - **JavaScript**: For handling the URL shortening logic.
 
-## Preview
-![Link Shortener Screenshot](link_shortener_preview.png)  
-*(Replace with an actual screenshot of your project.)*
 
 ## How It Works
 1. Enter a long URL in the input field.
