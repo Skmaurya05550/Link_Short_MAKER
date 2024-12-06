@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shortener</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Link Shortener</h1>
+    <input type="text" id="longUrl" placeholder="Enter your long URL here" />
+    <button onclick="shortenUrl()">Shorten URL</button>
+    
+    <div class="result" id="result"></div>
+</div>
+
+<script>
+    function shortenUrl() {
+        const longUrl = document.getElementById('longUrl').value;
+
+        // Simulating a shortened URL for demonstration purposes
+        if (longUrl) {
+            const shortUrl = "https://short.ly/" + btoa(longUrl).slice(0, 6); // Simple encoding for demo
+            document.getElementById('result').innerHTML = `<strong>Shortened URL:</strong> <a href="${shortUrl}" target="_blank">${shortUrl}</a>`;
+        } else {
+            alert("Please enter a valid URL.");
+        }
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
 
