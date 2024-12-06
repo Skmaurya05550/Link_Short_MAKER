@@ -20,4 +20,3 @@ A simple web application to shorten long URLs. This project demonstrates the bas
 3. A shortened URL is generated using simple base64 encoding (for demonstration purposes).
 4. The shortened URL is displayed as a clickable link.
 
-## Project Structure
