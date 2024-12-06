@@ -23,4 +23,4 @@ A simple web application to shorten long URLs. This project demonstrates the bas
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/link-shortener.git
+   git clone https://github.com/skmaurya05550/link-shortener.git
