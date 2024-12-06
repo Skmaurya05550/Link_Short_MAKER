@@ -1,4 +1,6 @@
 # Link Shortener
+![17335044917245654442028678926401](https://github.com/user-attachments/assets/a2c1f7fc-16fc-4666-8b69-2e62048c7bcc)
+
 
 A simple web application to shorten long URLs. This project demonstrates the basic functionality of a URL shortener with a clean UI and simple encoding logic.
 
